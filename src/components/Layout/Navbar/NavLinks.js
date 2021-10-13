@@ -29,11 +29,11 @@ const NavItemsSmoothLinks = ({ NavItem }) => (
         concepts
       </SLink>
     </NavItem> */}
-    <NavItem>
+    {/* <NavItem>
       <SLink smooth offset={-100} hashSpy to="contact">
         contact
       </SLink>
-    </NavItem>
+    </NavItem> */}
   </>
 );
 

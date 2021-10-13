@@ -9,7 +9,7 @@ export const sizes = {
 
 const themeCommon = {
   shadow: '0px 10px 10px rgba(0, 0, 0, 0.2)',
-  shadowSmall: '0px 5px 10px rgba(0, 0, 0, 0.05)',
+  shadowSmall: '0px 5px 15px rgba(0, 0, 0, 0.08)',
   fontFamily: '"Montserrat", sans-serif',
   secondaryFontFamily: '"Karla", sans-serif',
   spacing: {
@@ -28,8 +28,8 @@ const themeCommon = {
     minMobile: `(min-width: ${sizes.mobile})`,
     minTablet: `(min-width: ${sizes.tablet})`,
   },
-  gradient: 'linear-gradient(134deg, #6A98F0 0%, #4961DC 99%)',
-  gradient2: 'linear-gradient(99deg, #6A98F0 0%, #4961DC 130%)',
+  gradient: 'linear-gradient(134deg, #E4DCCC 0%, #E3DAC6 99%)',
+  gradient2: 'linear-gradient(99deg, #b1b2bd 0%, #b1b2bd 130%)',
   swapIfDark(prop1, prop2) {
     return `${this.dark ? this[prop1] : this[prop2]};`;
   },
@@ -38,30 +38,30 @@ const themeCommon = {
 export const themelight = {
   dark: false,
   bg: '#F8F8F8',
-  primaryColor: '#6D83F2',
+  primaryColor: '#383838',
   secondaryColor: '#F8F8F8',
-  accentColor: '#C7D0FF',
+  accentColor: '#b1b2bd', //light grey
   primaryBlack: '#383838',
   primaryText: '#383838',
   ...themeCommon,
 };
 
-export const themedarkblue = {
-  dark: true,
-  bg: '#0B0D18',
-  primaryColor: '#6D83F2',
-  secondaryColor: '#0F1221',
-  accentColor: '#15182E',
-  primaryBlack: '#F8F8F8',
-  elevation0: '#6D83F2',
-  primaryText: '#F8F8F8',
-  ...themeCommon,
-};
+// export const themedarkblue = {
+//   dark: true,
+//   bg: '#0B0D18',
+//   primaryColor: '#6D83F2',
+//   secondaryColor: '#0F1221',
+//   accentColor: '#15182E',
+//   primaryBlack: '#F8F8F8',
+//   elevation0: '#6D83F2',
+//   primaryText: '#F8F8F8',
+//   ...themeCommon,
+// };
 
 export const themedark = {
   dark: true,
   bg: '#191919',
-  primaryColor: '#6D83F2',
+  primaryColor: '#E4DCCC',
   secondaryColor: '#232323',
   accentColor: '#303030',
   primaryBlack: '#F8F8F8',

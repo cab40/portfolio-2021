@@ -16,34 +16,37 @@ const ThingsILove = () => (
   <Flex justify="space-between" align="center">
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="code" />
+        <FontAwesomeIcon icon="code" style={{color:'#8fb592'}} />
       </CardIcon>
-      <CardTitle>FrontEnd</CardTitle>
+      <CardTitle>Programming</CardTitle>
       <CardText>
-        I'm more front end focused and love to work with Reactjs as well as pure
-        HTML, CSS.
+        I always love a good programming challenge and participating in hackathons!
+        <br/>
+        Check out my Devpost
+        <a href="https://devpost.com/cab40" style={{color:'#82a885', fontWeight:'bold'}}> HERE </a>
       </CardText>
     </Card>
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={['fab', 'js']} />
+        <FontAwesomeIcon icon="paint-brush" style={{color:'#8fb592'}} />
       </CardIcon>
-      <CardTitle>Javascript</CardTitle>
+      <CardTitle>Art</CardTitle>
       <CardText>
-        I just extremely love javascript, I can’t even express how much I love
-        javascript with just a few lines.
+        My favourite mediums are watercolour, oil painting, and more recently, digital design.
+        <br/>
+        Check out my artwork
+        <a href="https://catherineburns0.wixsite.com/mysite" style={{color:'#82a885', fontWeight:'bold'}}> HERE </a>
       </CardText>
     </Card>
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="paint-brush" />
+        <FontAwesomeIcon icon={['fas', 'paper-plane']} style={{color:'#8fb592'}} />
       </CardIcon>
-      <CardTitle>Creative Coding</CardTitle>
+      <CardTitle>Travelling</CardTitle>
       <CardText>
-        I love creative coding because I do both coding & designing. making
-        beautiful art with code is very satisfying to me.
+        Exploring the world is a passion of mine! I look forward to hitting as many countries as possible :)
       </CardText>
     </Card>
   </Flex>
@@ -58,11 +61,11 @@ const Home = () => {
         {/* <Parallax y={[50, -50]} className="home__text"> */}
         <div className="home__text">
           <p>Hello, I’m</p>
-          <h1>ANURAG HAZRA</h1>
-          <p className="adjust">CREATIVE FRONT-END WEB DEVELOPER</p>
+          <h1>CATHERINE BURNS</h1>
+          <p className="adjust">Systems Design Engineering Student</p>
 
           <div className="home__CTA">
-            <Button className="cta" as="a" href="#">
+            <Button className="cta" as="a" href="#" style={{color:'black'}}>
               Download Resume
             </Button>
 
@@ -70,16 +73,16 @@ const Home = () => {
               <IconLink
                 label="github"
                 icon={['fab', 'github']}
-                href="//github.com/anuraghazra"
+                href="//github.com/cab40"
               />
               <IconLink
-                label="twitter"
-                icon={['fab', 'twitter']}
-                href="//twitter.com/anuraghazru"
+                label="devpost"
+                icon="code"
+                href="//devpost.com/cab40"
               />
               <IconLink
                 label="codepen"
-                icon={['fab', 'codepen']}
+                icon={['fab', 'linkedin']}
                 href="//codepen.io/anuraghazra"
               />
             </div>
@@ -88,7 +91,7 @@ const Home = () => {
         {/* </Parallax> */}
         <HeroCard />
       </Intro>
-
+      <br/><br/>
       {/* Things I LOVE */}
       <PageHeader style={{ marginBottom: 30 }}>
         Things I love <i className="fas fa-heart" />

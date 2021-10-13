@@ -29,9 +29,9 @@ export const Intro = styled.section`
   }
 
   h1 {
-    margin: -4px 0;
-    font-size: 2.5rem;
-    font-weight: 900;
+    margin: 4px 0;
+    font-size: 2.7rem;
+    font-weight: 700;
   }
 
   p {

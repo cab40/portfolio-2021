@@ -1,10 +1,11 @@
 ---
-title: Verly Range Slider
-excerpt: Verly Range Slider is one of my fun projects which uses my Verly.js physics engine, and it also got mentioned in CodepenSpark. verly range slider got viral on the net and got over 15K views on codepen.io. It uses Verlet physics to simulate those delightful dangly sliders.
+title: it's lit
+excerpt: 
+  it's lit is a hardware game with a web UI which allows users to vibe along to colourful lights and music. From the React website users can select a song then redirect their attention to the physical hardware. They will try to tap the buttons to incoming LEDs as they appear, which also match up with the beats of the song. At the end of the song, the user’s accuracy will be displayed on the website screen, so that they can continue to improve their performance!
 
-iframe: //codepen.io/anuraghazra/embed/agKJEd/?default-tab=result&theme-id=light
-demo: //anuraghazra.github.io/VerlyRangeSlider
-src: //github.com/anuraghazra/VerlyRangeSlider
+iframe: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/664/154/datas/gallery.jpg
+demo: https://devpost.com/software/tbd-k9zjah
+src: https://github.com/cab40/Its-Lit
 
 info:
   idea: The main idea was to make some verlet simulated ropes and connect them to the rang slider's thumb and let them sway

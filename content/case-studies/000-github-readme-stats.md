@@ -1,17 +1,13 @@
 ---
-title: Github Readme Stats
+title: Locall
 excerpt:
-  Github Readme Stats dynamically generates stats for github user's readmes,
-  After github launched it's profile readme feature I thought I would do
-  something unique and dynamic with new readme resumes so I made
-  github-readme-stats which is now used by many people and got over 1k stars on
-  github within 7 days, and currently it has over 30k stars. it has few cool
-  features including `Github Extra Pins` which allows us to pin more that 6
-  repos in our profile.
+  Locall helps members of a neighbourhood get in contact and share any tasks that they may need help with. Users can browse through these tasks, and offer to help their neighbours. Those who post the tasks can also choose to offer payment for these services. It's hard to trust just anyone to help you out with daily tasks, but you can always count on your neighbours!
+  Created with Flutter and coded in Dart, this iOS app is the 3rd place winner of McMaster's DeltaHacks 7.
 
-iframe: //github-readme-stats.vercel.app/api/?username=anuraghazra
+
+iframe: https://cab40.github.io/Portfolio-2020/img/Locall.jpeg
 demo: //github-readme-stats.vercel.app/api/?username=anuraghazra
-src: //github.com/anuraghazra/github-readme-stats
+src: https://github.com/cab40/Locall
 
 info:
   idea:

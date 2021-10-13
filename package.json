@@ -5,10 +5,10 @@
   "version": "0.1.0",
   "author": "Anurag Hazra <hazru.anurag@gmail.com>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "babel-plugin-styled-components": "^1.10.7",
     "disqus-react": "^1.0.7",
     "gatsby": "^2.32.13",

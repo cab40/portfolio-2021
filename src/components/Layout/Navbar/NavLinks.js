@@ -19,7 +19,7 @@ const NavItemsSmoothLinks = ({ NavItem }) => (
         projects
       </SLink>
     </NavItem>
-    <NavItem>
+    {/* <NavItem>
       <SLink smooth offset={-100} hashSpy to="creative-coding">
         creative coding
       </SLink>
@@ -28,7 +28,7 @@ const NavItemsSmoothLinks = ({ NavItem }) => (
       <SLink smooth offset={-100} hashSpy to="concepts">
         concepts
       </SLink>
-    </NavItem>
+    </NavItem> */}
     <NavItem>
       <SLink smooth offset={-100} hashSpy to="contact">
         contact
@@ -47,12 +47,6 @@ const NavItemsGatsbyLinks = ({ NavItem }) => (
     </NavItem>
     <NavItem>
       <Link to="/#projects">projects</Link>
-    </NavItem>
-    <NavItem>
-      <Link to="/#creative-coding">creative coding</Link>
-    </NavItem>
-    <NavItem>
-      <Link to="/#concepts">concepts</Link>
     </NavItem>
     <NavItem>
       <Link to="/#contact">contact</Link>

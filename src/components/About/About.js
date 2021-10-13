@@ -16,28 +16,27 @@ const About = () => {
       <SkewBg />
       <AboutInfo>
         <div>
-          <Avatar src="hfest_avatar_2.jpg" />
+          <Avatar src="profilepic.jpg" />
         </div>
+        
         <p>
-          Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from
-          India, currently working at{' '}
-          <a className="about__link" href="https://razorpay.com">
-            Razorpay
+        Lets {' '}
+          <a className="about__link" href="https://github.com/cab40" style={{color:'#82a885', fontWeight:'bold'}}>
+            GIT
           </a>{' '}
-          as a FrontEnd engineer. I've been building stuff on the web since when
-          I was in 6th standard, I've made countless side projects and I also
-          posses magical powers of using react to build delightful user
-          interfaces.
-          <br />
-          <br />I also love doing <b>open source</b> development, I actively
-          maintain various notable open source projects with over, <br />
-          <b>30k+ stars on GitHub</b> and <b>50m+ hits</b>. It gives me a
-          wonderful feeling of achievement and joy which I cannot explain in
-          words.
+        to it!
+        <br/> <br/> 
+        I am a Systems Design Engineering Student at the University of Waterloo
+        (graduating class of 2025). 
+        <br/><br/>
+        Now you may be thinking “what exactly is Systems Design Engineering?”. 
+        Well, we employ a systems approach to design. Looking at a given system, an interacting combination of software, 
+        people, machines, and tools as a whole, we create problem-based solutions using principles of engineering, 
+        UI/UX design, and creativity.
         </p>
       </AboutInfo>
-
-      <Flex justify="space-between" className="quotes__wrapper">
+      <br/><br/><br/><br/><br/><br/>
+      {/* <Flex justify="space-between" className="quotes__wrapper">
         <Quote>
           <p>“Simplicity is the baddest choice to be the best.“</p>
         </Quote>
@@ -52,7 +51,7 @@ const About = () => {
             “Creativity is the driver of an unstoppable train called Passion.”
           </p>
         </Quote>
-      </Flex>
+      </Flex> */}
     </AboutWrapper>
   );
 };

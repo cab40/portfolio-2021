@@ -55,12 +55,12 @@ const Projects = () => {
           desc={node.frontmatter.excerpt}
           links={
             <ProjectLinks>
-              <Button as={Link} to={node.fields.slug}>
+              {/* <Button as={Link} to={node.fields.slug} style={{color:'black'}}>
                 Case Study
               </Button>
-              <Button target="__blank" as="a" href={node.frontmatter.demo}>
+              <Button target="__blank" as="a" href={node.frontmatter.demo} style={{color:'black'}}>
                 Live Demo
-              </Button>
+              </Button> */}
               <IconButton
                 label="github"
                 icon={['fab', 'github']}
@@ -70,22 +70,16 @@ const Projects = () => {
           }
           preview={
             <ProjectPreview>
-              <IFrame
-                livedemo={!!node.frontmatter.iframe.match('codepen')}
-                src={node.frontmatter.iframe}
+              <img className = 'projectPic' src={node.frontmatter.iframe}
+                style={{borderRadius:'2%', width:'40rem', height:'23rem', objectFit:'cover'}}
               />
-              <Tags>
-                <FontAwesomeIcon icon={['fab', 'js']} />
-                <FontAwesomeIcon icon={['fab', 'html5']} />
-                <FontAwesomeIcon icon={['fab', 'css3']} />
-              </Tags>
             </ProjectPreview>
           }
         />
       ))}
 
-      <SmallProjects />
-      <JsProjects />
+      {/* <SmallProjects />
+      <JsProjects /> */}
     </ProjectsWrapper>
   );
 };

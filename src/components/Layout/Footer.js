@@ -30,13 +30,9 @@ const Footer = () => (
     <Wrapper>
       <img width="35px" src={logo} alt="anurag hazra" />
       <p style={{ float: 'right' }}>
-        Made with love and
-        <a href="https://gatsbyjs.org" target="__blank">
-          &nbsp;gatsby&nbsp;
-        </a>
-        by
-        <a href="https://github.com/anuraghazra" target="__blank">
-          &nbsp;anuraghazra
+        Made with love by
+        <a href="https://github.com/cab40" target="__blank">
+          &nbsp;Catherine Burns!
         </a>
       </p>
     </Wrapper>

@@ -1,10 +1,11 @@
 ---
-title: Evolution Aquerium
-excerpt: Evolution Aquarium is based on Craig Reynold's Steering Behaviors and Flocking System, and It implements a Genetic Algorithm and mutations. Daniel Shiffman showcased this on his Youtube Channel at TheCodingTrain. And I was pleased about the humble feedback; sir Daniel Shiffman gave to me. It just boosted my confidence more and more, and motivated me to make this project better.
+title: Book Recommendation System
+excerpt: 
+  Based off data used in Michelle Craig’s “Personalized Book Recommendation System” I created a Ruby program which reports the book most similar to a specific title based on user ratings. This is done through treating each book’s ratings as a vector and finding the cosine angle between these two vectors. Ratings range from -5 (hated it), to 0 (no rating), to 5 (loved it). As there are cases in which books have different numbers of ratings, the denominator normalizes the score.
 
-iframe: //www.youtube.com/embed/GKIhVrOsQCI/?modestbranding=1&showinfo=0&autohide=1&rel=0
+iframe: https://cab40.github.io/Portfolio-2020/img/book-output.png
 demo: //anuraghazra.github.io/EvolutionAquerium
-src: //github.com/anuraghazra/EvolutionAquerium
+src: https://github.com/cab40/book-recommendations
 
 info:
   idea: The basic idea of the project is to achieve and simulate biological creatures in an aquarium to see how they react in different scenarios

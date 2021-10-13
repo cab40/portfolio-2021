@@ -1,11 +1,11 @@
 ---
-title: BugVilla
+title: ampl.io
 excerpt:
-  Universal bug tracker for everyone! BugVilla allows team members to collaborate, discuss and kill bugs effectively.
+  ampl.io allows users to keep track of daily, weekly, or monthly goals through a self and peer monitored accountability system. When setting a goal, users can add friends or match with members of the ampl.io community with similar aims. Individuals can easily monitor and check off their own growth, as well as their group's progress on various goals.
 
-iframe: //www.youtube.com/embed/lIYgHEI1gC4/?modestbranding=1&showinfo=0&autohide=1&rel=0
+iframe: https://cab40.github.io/Portfolio-2020/img/amplio-cover-shdw.jpg
 demo: //bugvilla.herokuapp.com/
-src: //github.com/anuraghazra/BugVilla
+src: //github.com/cab40/Ampl.io
 
 info:
   idea:

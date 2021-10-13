@@ -27,11 +27,11 @@ export const AboutInfo = styled.article`
   }
 
   p {
-    color: #f8f8f8;
+    color: ${p => (p.theme.dark ? p.theme.textColor : '#111')};
   }
 
   .about__link {
-    color: ${p => (p.theme.dark ? p.theme.primaryColor : '#111')};
+    color: ${p => (p.theme.dark ? p.theme.primaryColor : '#fff')};
   }
   @media ${props => props.theme.media.tablet} {
     flex-direction: column;

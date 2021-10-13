@@ -48,14 +48,14 @@ const WordClouds = () => {
       className="skills__word-clouds"
     >
       <p style={{ top: 50, left: '100%', fontSize: 23 }}>HTML5</p>
-      <p style={{ top: 0, left: 0, fontSize: 25 }}>WebGL</p>
+      <p style={{ top: 0, left: 0, fontSize: 25 }}>Figma</p>
       <p style={{ top: 200, left: -60, fontSize: 14 }}>CSS3</p>
-      <p style={{ top: '30%', left: '35%', fontSize: 18 }}>figma</p>
-      <p style={{ top: 40, left: '75%', fontSize: 12 }}>antd</p>
-      <p style={{ top: 380, left: '85%', fontSize: 18 }}>MongoDB</p>
-      <p style={{ top: 320, left: '65%', fontSize: 18 }}>Gatsby</p>
-      <p style={{ top: 350, left: 150, fontSize: 20 }}>ES6</p>
-      <p style={{ top: 120, left: '22%', fontSize: 12 }}>blender</p>
+      <p style={{ top: '30%', left: '35%', fontSize: 18 }}>Adobe XD</p>
+      <p style={{ top: 40, left: '75%', fontSize: 12 }}>Solidworks</p>
+      <p style={{ top: 380, left: '85%', fontSize: 18 }}>Bootstrap</p>
+      <p style={{ top: 320, left: '65%', fontSize: 18 }}>Ruby</p>
+      <p style={{ top: 350, left: 150, fontSize: 20 }}>Git</p>
+      <p style={{ top: 120, left: '22%', fontSize: 12 }}>Qt/QML</p>
     </Parallax>
   );
 };

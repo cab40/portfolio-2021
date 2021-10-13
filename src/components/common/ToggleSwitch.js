@@ -68,7 +68,7 @@ const SwitchWrapper = styled.div`
     left: 4px;
     width: 30px;
     height: 5px;
-    color: #fff;
+    color: ${p => p.theme.accentColor};
     font-size: 8px;
     font-weight: bold;
     text-align: center;

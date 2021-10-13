@@ -1,10 +1,10 @@
 const meta = {
   // Metadata
-  siteTitle: 'Anurag Hazra - Creative Web Designer',
+  siteTitle: 'Catherine Burns',
   siteDescription:
     'Anurag Hazra - Creative frontEnd web developer who loves javascript and modern web technologies.',
-  siteTitleAlt: 'Anurag Hazra',
-  siteShortName: 'Anurag Hazra',
+  siteTitleAlt: 'Catherine Burns',
+  siteShortName: 'Catherine Burns',
   siteUrl: 'https://anuraghazra.github.io', // No trailing slash!
 };
 

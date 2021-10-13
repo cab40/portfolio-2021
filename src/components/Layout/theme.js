@@ -63,7 +63,7 @@ export const themedark = {
   bg: '#191919',
   primaryColor: '#E4DCCC',
   secondaryColor: '#232323',
-  accentColor: '#303030',
+  accentColor: '#b1b2bd',
   primaryBlack: '#F8F8F8',
   elevation0: '#191919',
   primaryText: '#F8F8F8',

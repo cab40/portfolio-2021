@@ -66,7 +66,7 @@ export const ProjectPreview = styled.div`
   grid-row: 1;
   position: relative;
   right: -20px;
-
+  
   @media ${props => props.theme.media.fablet} {
     right: 0;
     grid-column: 1 / 4;

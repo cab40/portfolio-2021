@@ -1,10 +1,10 @@
 ---
-title: ShaderExpo
-excerpt: ShaderExpo is a purely dependency-free shader editor made in Raw WebGL API. Experiment with basic WebGL shaders on the fly. ShaderExpo Includes rich features like Inline Error Logs, AutoCompletion, Live Editing, Example Shaders, etc. ShaderExpo is also mentioned in Awesome-Webgl.
+title: Hive
+excerpt: We wanted to find a way to maximize the quality of the online dating in a fun, and more competitive web environment. Our solution? A Bachelor/Bachelorette style dating site which, while still including quick match features found in apps like Tinder and Bumble, takes this up a level by forming groups out of these matched users to then compete to conclude the most compatible match.
 
-iframe: //www.youtube.com/embed/rtPhA041U4U/?modestbranding=1&showinfo=0&autohide=1&rel=0
+iframe: https://cab40.github.io/Portfolio-2020/img/hive.jpeg
 demo: //anuraghazra.github.io/ShaderExpo
-src: //github.com/anuraghazra/ShaderExpo
+src: https://github.com/RaymondR-Wu/the-bachelor-htn
 
 info:
   idea: The basic idea of the project was to create a real-time WebGL shader editor with linting and on the fly updates.

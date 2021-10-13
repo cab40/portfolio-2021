@@ -1,10 +1,10 @@
 ---
-title: GyroDodge
-excerpt: Dodge! Shoot! Win! GyroDodge is a simple gyroscopic mobile game. I used device orientation API to get the alpha, gamma, delta rotations of the mobile device and then use it to control the player. also available on itch.io
+title: Linear System Parser
+excerpt: Using C, I created a program which parses a dataset of linear systems, solves them, properly reduces the fraction answers, and finally sorts all computed answers. The initial steps of the program consist of file handling; accessing the data from a text file and prepping an output file for all the solved linear systems. The linear systems are then parsed from the provided dataset and the fractions are then further parsed into their own FractionType structure.
 
-iframe: //www.youtube.com/embed/GdRlkHTMk9c/?modestbranding=1&showinfo=0&autohide=1&rel=0
+iframe: https://cab40.github.io/Portfolio-2020/img/lss.png
 demo: //anuraghazra.github.io/GyroDodge/
-src: //github.com/anuraghazra/GyroDodge
+src: https://github.com/cab40/Linear-system-solver
 
 info:
   idea: Gyrododge was an experimental game for testing out the Javascript's Gyroscope API. It turns out that we can do pretty much anything with it. So i made a game with it.

@@ -56,7 +56,8 @@ const NavbarMobile = () => {
 
         <NavItemsBottomNav isOpen={isMenuOpen}>
           <NavLinks NavItem={NavItem} />
-          <NavItem style={{ width: 'auto', color:'black' }}>
+
+          <NavItem style={{ width: 'auto' }}>
             <DarkModeButton />
           </NavItem>
         </NavItemsBottomNav>

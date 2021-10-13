@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '@src/static/logo.svg';
+import logo from '@src/static/CBLogo.png';
 
 import Link from 'gatsby-link';
 import { Link as SLink } from 'react-scroll';
@@ -13,7 +13,7 @@ const NavDesktop = () => {
   return (
     <>
       <SLink className="logo" smooth offset={-100} hashSpy={true} to="home">
-        <img src={logo} alt="Anurag Hazra" />
+        <img src={logo} alt="Catherine Burns" />
       </SLink>
 
       <nav>

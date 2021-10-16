@@ -2,7 +2,7 @@ const meta = {
   // Metadata
   siteTitle: 'Catherine Burns',
   siteDescription:
-    'Anurag Hazra - Creative frontEnd web developer who loves javascript and modern web technologies.',
+    'Catherine Burns',
   siteTitleAlt: 'Catherine Burns',
   siteShortName: 'Catherine Burns',
   siteUrl: 'https://catherineburns.netlify.app', // No trailing slash!

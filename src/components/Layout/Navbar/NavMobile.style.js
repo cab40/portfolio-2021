@@ -52,7 +52,7 @@ export const NavItemMobile = styled.li`
     padding: 10px;
     font-weight: 300;
     background: ${props => props.theme.gradient};
-    color: white;
+    color: black;
     border-radius: 5px;
     box-shadow: 1px 3px 13px 0px rgba(0,0,0,0.1);
     /* color: ${p =>

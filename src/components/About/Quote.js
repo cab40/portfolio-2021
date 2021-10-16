@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const QuoteWrapper = styled.article`
   position: relative;
+  text-align: center;
 
   font-size: 12px;
   padding: 20px;
@@ -15,7 +16,7 @@ const QuoteWrapper = styled.article`
   flex: 1;
 
   background-color: ${p =>
-    p.theme.dark ? p.theme.accentColor : p.theme.secondaryColor};
+    p.theme.dark ? p.theme.secondaryColor : p.theme.secondaryColor};
   box-shadow: ${props => props.theme.shadowSmall};
 
   &,
@@ -35,7 +36,6 @@ const Quote = ({ children }) => (
   <QuoteWrapper>
     {children}
     <br />
-    <i>- anurag hazra</i>
   </QuoteWrapper>
 );
 

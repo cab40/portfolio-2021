@@ -26,29 +26,28 @@ const About = () => {
           </a>{' '}
         to it!
         <br/> <br/> 
-        I am a Systems Design Engineering Student at the University of Waterloo
-        (graduating class of 2025). 
+        Glad you could make it! I’m Catherine, a Systems Design Engineering Student at the University of Waterloo (graduating class of 2025).
         <br/><br/>
-        Now you may be thinking “what exactly is Systems Design Engineering?”. 
-        Well, we employ a systems approach to design. Looking at a given system, an interacting combination of software, 
-        people, machines, and tools as a whole, we create problem-based solutions using principles of engineering, 
-        UI/UX design, and creativity.
+        Now you may be asking “what exactly is <a target='_blank' href='https://uwaterloo.ca/systems-design-engineering/'>Systems Design Engineering</a>?”, and I’m glad you asked since my class is wondering the same thing. 
+        What I can tell you, though, is that I’m a designer and dev with interests in UI/UX, software, HMI, and vehicle automation.
+        For the time being, I’m working as a Full Stack Software Engineer at Cisco, designing a Telemetry Dashboard for uWaterloo’s Midnight Sun Solar Car Team, 
+        trying out plenty of new recipes, and refining my spotify playlists! 
+
         </p>
       </AboutInfo>
       <br/><br/><br/><br/><br/><br/>
       {/* <Flex justify="space-between" className="quotes__wrapper">
         <Quote>
-          <p>“Simplicity is the baddest choice to be the best.“</p>
+          <p> </p>
         </Quote>
         <Quote>
           <p>
-            “I know I’m not successful enough, but I’m passionate enough not to
-            worry about success.“
+            Currently, my favourite type of cereal is Apple Cinnamon Cheerios
           </p>
         </Quote>
         <Quote>
           <p>
-            “Creativity is the driver of an unstoppable train called Passion.”
+            
           </p>
         </Quote>
       </Flex> */}

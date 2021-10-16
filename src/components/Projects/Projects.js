@@ -71,7 +71,8 @@ const Projects = () => {
           preview={
             <ProjectPreview>
               <img className = 'projectPic' src={node.frontmatter.iframe}
-                style={{borderRadius:'2%', width:'40rem', height:'23rem', objectFit:'cover'
+                style={{borderRadius:'2%', width:'40rem', height:'23rem', objectFit:'cover',
+                boxShadow:'0 4px 8px 0 rgba(0, 0, 0, 0.1)'
               }}
               />
             </ProjectPreview>

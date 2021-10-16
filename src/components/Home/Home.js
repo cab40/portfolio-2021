@@ -46,7 +46,7 @@ const ThingsILove = () => (
       </CardIcon>
       <CardTitle>Travelling</CardTitle>
       <CardText>
-        Exploring the world is a passion of mine! I look forward to hitting as many countries as possible :)
+        Exploring the world is a passion of mine! I look forward to learning more about different countries and cultures :)
       </CardText>
     </Card>
   </Flex>
@@ -62,11 +62,11 @@ const Home = () => {
         <div className="home__text">
           <p>Hello, I’m</p>
           <h1>CATHERINE BURNS</h1>
-          <p className="adjust">Systems Design Engineering Student</p>
+          <p className="adjust">UWaterloo Systems Design Engineering</p>
 
           <div className="home__CTA">
-            <Button className="cta" as="a" href="#" style={{color:'black'}}>
-              Download Resume
+            <Button className="cta" as="a" href="mailto:c22burns@uwaterloo.ca" style={{color:'black'}}>
+              Contact for Resume
             </Button>
 
             <div className="home__social">

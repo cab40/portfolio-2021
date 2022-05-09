@@ -10,7 +10,7 @@ const meta = {
 
 const social = {
   siteLogo: `src/static/CBLogo.png`,
-  siteBanner: `${meta.siteUrl}/images/social-banner.png`,
+  //siteBanner: `${meta.siteUrl}/images/social-banner.png`,
   twitter: '@anuraghazru',
 };
 
